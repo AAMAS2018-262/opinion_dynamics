@@ -1,0 +1,10 @@
+# The lines are in the following format:
+#
+# <graph_file> <dynamics_type> <core_extraction_method> <max_rounds> <win_volume_threshold> <number_of_experiments>
+#
+# dynamice_type = TwoChoices | VoterModel
+# core_extraction_method = KRichClub | DensestCore
+# You can use -1 for max_rounds to use the default value, which is the number of nodes.
+#
+../exp_data/graphs/email-core.txt TwoChoices DensestCore -1 0.9 10
+# ../exp_data/graphs/sn-twitter-combined.txt TwoChoices DensestCore -1 0.85 1
